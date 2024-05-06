@@ -1,0 +1,19 @@
+{
+  "name": "webpack-mini",
+  "scripts": {
+    "build:optimize": "dotenv -v  optimize=y -- webpack ",
+    "build": "dotenv -v  optimize=n -- webpack "
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.9",
+    "dotenv-cli": "^7.4.1",
+    "prettier": "^3.2.5",
+    "ts-node": "^10.9.2",
+    "tslib": "^2.6.2",
+    "tsx": "^4.9.3",
+    "typescript": "^5.4.5",
+    "userscript-metadata-webpack-plugin": "^0.4.0",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
